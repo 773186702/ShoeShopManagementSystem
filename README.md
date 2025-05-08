@@ -34,7 +34,6 @@ A Windows-based inventory management system for a shoe store, developed using **
 2. **Open the Project**:
    - Open the `.sln` file in Visual Studio.
 3. **Configure the Database**:
-   - Restore the database backup (`.bak` file) using SSMS.
    - Update the connection string in the `Products.cs` file:
      ```csharp
      SqlConnection conn = new SqlConnection("Server=YOUR_SERVER;Database=Productss;Trusted_Connection=True");
